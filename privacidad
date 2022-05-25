@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>BiciCUT</title>
+    <link rel="icon" href="img/title_icon.png" type="image/icon type">
+</head>
+
+<body>
+
+    <!-- Navbar / Header-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container d-flex justify-content-around">
+            <img src="img/title_icon.png" alt="" width="40px" style="margin-right: 8px;">
+            <a href="index.html" class="navbar-brand"
+                style="font-size: 30px; font-weight: bold; color: rgb(19, 226, 122);">BiciCUT</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon align-items-center align-text-center"></span>
+            </button>
+
+            <div class="collapse navbar-collapse align-text-center " id="navmenu">
+                <ul class="navbar-nav mx-auto align-items-center">
+                    <li class="space-vr">|</li>
+                    <li class="nav-item mx-5">
+                        <a href="index.html" class="nav-link disabled">Inicio</a>
+                    </li>
+                    <li class="space-vr">|
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a href="comoFunciona.html" class="nav-link">¿Cómo Funciona?</a>
+                    </li>
+                    <li class="space-vr">|
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a href="mapa.html" class="nav-link">Mapa</a>
+                    </li>
+                    <li class="space-vr">|
+                    </li>
+                    <li class="nav-item dropdown mx-5">
+                        <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Más opciones</a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="faq.html">Preguntas Frecuentes</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Otros Proyectos del CUT</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Términos y Condiciones</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Aviso de Privacidad</a>
+                            </li>
+                    </li>
+                </ul>
+                <li class="space-vr">|</li>
+                </ul>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#iniciar">Iniciar
+                        Sesión</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page clearfix" id="page">
+        <header id="section-header" class="section section-header">
+            <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">
+                <div id="zone-user" class="zone zone-user clearfix container-12">
+                    <div class="grid-8 region region-user-first" id="region-user-first">
+                        <div class="region-inner region-user-first-inner">
+                            <div class="block block-block block-1 block-block-1 odd block-without-title"
+                                id="block-block-1">
+                                <div class="block-inner clearfix">
+
+                                    <div class="content clearfix">
+                                        <p><a href="http://www.udg.mx"><img alt="UdeG"
+                                                    src="/sites/default/files/udeg_drupal.png"
+                                                    style="height: 81px; width: 350px;"></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-4 region region-user-second" id="region-user-second">
+                        <div class="region-inner region-user-second-inner">
+                            <div class="block block-search block-form block-search-form odd block-without-title"
+                                id="block-search-form">
+                                <div class="block-inner clearfix">
+
+                                    <div class="content clearfix">
+                                        <form action="/info/politica-de-privacidad-y-manejo-de-datos" method="post"
+                                            id="search-block-form" accept-charset="UTF-8">
+                                            <div>
+                                                <div class="container-inline">
+                                                    <h2 class="element-invisible">Formulario de búsqueda</h2>
+                                                    <div
+                                                        class="form-item form-type-textfield form-item-search-block-form">
+                                                        <label class="element-invisible"
+                                                            for="edit-search-block-form--2">Buscar </label>
+                                                        <input title="Escriba lo que quiere buscar." type="text"
+                                                            id="edit-search-block-form--2" name="search_block_form"
+                                                            value="" size="15" maxlength="128" class="form-text">
+                                                    </div>
+                                                    <div class="form-actions form-wrapper" id="edit-actions"><input
+                                                            type="submit" id="edit-submit" name="op" value="Buscar"
+                                                            class="form-submit"></div><input type="hidden"
+                                                        name="form_build_id"
+                                                        value="form-hp6Ls-a7RN_aGShmmxclD2rmpTe5KZKvBs7Y5ZbTVso">
+                                                    <input type="hidden" name="form_id" value="search_block_form">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">
+                <div id="zone-branding" class="zone zone-branding clearfix container-12">
+                    <div class="grid-12 region region-branding" id="region-branding">
+                        <div class="region-inner region-branding-inner">
+                            <div class="branding-data clearfix">
+                                <div class="site-name-slogan">
+                                    <h2 class="site-name"><a href="/" title="Inicio">Centro Universitario de Tonalá</a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">
+                <div id="zone-menu" class="zone zone-menu clearfix container-12">
+                    <div class="grid-12 region region-menu" id="region-menu">
+                        <div class="region-inner region-menu-inner">
+                            <div class="block block-superfish block-1 block-superfish-1 odd block-without-title responsive-menus-mean-menu-processed"
+                                id="block-superfish-1" style="display: block;">
+                                <div class="block-inner clearfix">
+
+                                    <div class="content clearfix">
+                                        <ul id="superfish-1"
+                                            class="menu sf-menu sf-menu-men- sf-horizontal sf-style-none sf-total-items-7 sf-parent-items-6 sf-single-items-1 superfish-processed sf-js-enabled sf-shadow">
+                                            <li id="menu-1847-1"
+                                                class="first odd sf-item-1 sf-depth-1 sf-total-children-15 sf-parent-children-0 sf-single-children-15 menuparent">
+                                                <a href="/centro" class="sf-depth-1 menuparent sf-with-ul">Nuestro
+                                                    Centro<span class="sf-sub-indicator"> »</span></a>
+                                                <ul style="float: none; width: 12em;" class="sf-hidden">
+                                                    <li id="menu-8394-1"
+                                                        class="first odd sf-item-1 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/tercer-informe-cut-2021"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Informe de Actividades
+                                                            2021 - Mtro. José Alfredo Peña Ramos</a></li>
+                                                    <li id="menu-1848-1"
+                                                        class="middle even sf-item-2 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/acerca/mision" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Misión y visión</a></li>
+                                                    <li id="menu-1849-1"
+                                                        class="middle odd sf-item-3 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/centro/consejo-centro" class="sf-depth-2"
+                                                            style="float: none; width: auto;">H. Consejo de Centro</a>
+                                                    </li>
+                                                    <li id="menu-4800-1"
+                                                        class="middle even sf-item-4 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/centro/consejo-social" title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Consejo Social</a></li>
+                                                    <li id="menu-4801-1"
+                                                        class="middle odd sf-item-5 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/centro/rectoria" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Rectoría</a></li>
+                                                    <li id="menu-4802-1"
+                                                        class="middle even sf-item-6 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/centro/organigrama" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Organigrama</a></li>
+                                                    <li id="menu-5357-1"
+                                                        class="middle odd sf-item-7 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/directorio/Rector%C3%ADa"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Directorio</a></li>
+                                                    <li id="menu-4803-1"
+                                                        class="middle even sf-item-8 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/centro/normatividad"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Normatividad</a></li>
+                                                    <li id="menu-4804-1"
+                                                        class="middle odd sf-item-9 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/centro/sac" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Secretaría Académica</a>
+                                                    </li>
+                                                    <li id="menu-4805-1"
+                                                        class="middle even sf-item-10 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/centro/divisiones-departamentos" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Divisiones y
+                                                            Departamentos</a></li>
+                                                    <li id="menu-4806-1"
+                                                        class="middle odd sf-item-11 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/documento/plan-maestro-del-centro-universitario-de-tonala"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Plan Maestro</a></li>
+                                                    <li id="menu-5374-1"
+                                                        class="middle even sf-item-12 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/ubicacion" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Ubicación</a></li>
+                                                    <li id="menu-5686-1"
+                                                        class="middle odd sf-item-13 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/extensiones2" title=""
+                                                            class="sf-depth-2"
+                                                            style="float: none; width: auto;">Directorio de extensiones
+                                                        </a></li>
+                                                    <li id="menu-5330-1"
+                                                        class="middle even sf-item-14 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/informes" title=""
+                                                            class="sf-depth-2"
+                                                            style="float: none; width: auto;">Informes de Actividades
+                                                        </a></li>
+                                                    <li id="menu-5392-1"
+                                                        class="last odd sf-item-15 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/creciendo" title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">El CUT sigue creciendo</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-1338-1"
+                                                class="middle even sf-item-2 sf-depth-1 sf-total-children-4 sf-parent-children-3 sf-single-children-1 menuparent">
+                                                <a href="/oferta-academica" title=""
+                                                    class="sf-depth-1 menuparent sf-with-ul">Oferta Académica<span
+                                                        class="sf-sub-indicator"> »</span></a>
+                                                <ul style="float: none; width: 12em;" class="sf-hidden">
+                                                    <li id="menu-837-1"
+                                                        class="first odd sf-item-1 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/servicios/control-escolar/aspirantes"
+                                                            class="sf-depth-2"
+                                                            style="float: none; width: auto;">Aspirantes</a></li>
+                                                    <li id="menu-4821-1"
+                                                        class="middle even sf-item-2 sf-depth-2 sf-total-children-15 sf-parent-children-0 sf-single-children-15 menuparent"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/oferta-academica/licenciaturas" title=""
+                                                            class="sf-depth-2 menuparent sf-with-ul"
+                                                            style="float: none; width: auto;">Licenciaturas<span
+                                                                class="sf-sub-indicator"> »</span></a>
+                                                        <ul style="left: 12em; float: none; width: 12em;"
+                                                            class="sf-hidden">
+                                                            <li id="menu-5213-1"
+                                                                class="first odd sf-item-1 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/medico-cirujano" title=""
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Carrera de Médico
+                                                                    Cirujano y Partero</a>
+                                                            </li>
+                                                            <li id="menu-5214-1"
+                                                                class="middle even sf-item-2 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/nutricion" title=""
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;"> Licenciatura en
+                                                                    Nutrición</a>
+                                                            </li>
+                                                            <li id="menu-5202-1"
+                                                                class="middle odd sf-item-3 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/administracion-negocios"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Administración de Negocios </a>
+                                                            </li>
+                                                            <li id="menu-5938-1"
+                                                                class="middle even sf-item-4 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/ciencias-forenses"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Ciencias Forenses</a>
+                                                            </li>
+                                                            <li id="menu-5206-1"
+                                                                class="middle odd sf-item-5 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/contaduria" title=""
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Contaduría Pública</a>
+                                                            </li>
+                                                            <li id="menu-5204-1"
+                                                                class="middle even sf-item-6 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/abogado" title=""
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Derecho / Abogado</a>
+                                                            </li>
+                                                            <li id="menu-5205-1"
+                                                                class="middle odd sf-item-7 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/diseno-artesanias" title=""
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Diseño de Artesanía</a>
+                                                            </li>
+                                                            <li id="menu-8675-1"
+                                                                class="middle even sf-item-8 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/estudios-liberales"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Estudios Liberales</a>
+                                                            </li>
+                                                            <li id="menu-5208-1"
+                                                                class="middle odd sf-item-9 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/gerontologia" title=""
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Gerontología</a>
+                                                            </li>
+                                                            <li id="menu-5209-1"
+                                                                class="middle even sf-item-10 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/historia-del-arte" title=""
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Historia del Arte</a>
+                                                            </li>
+                                                            <li id="menu-5210-1"
+                                                                class="middle odd sf-item-11 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/ciencias-computacionales"
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Ingeniería en Ciencias Computacionales</a>
+                                                            </li>
+                                                            <li id="menu-5211-1"
+                                                                class="middle even sf-item-12 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/ingenieria-energia" title=""
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Ingeniería en Energía</a>
+                                                            </li>
+                                                            <li id="menu-5212-1"
+                                                                class="middle odd sf-item-13 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/ingenieria-nanotecnologia"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Ingeniería en Nanotecnología</a>
+                                                            </li>
+                                                            <li id="menu-5203-1"
+                                                                class="middle even sf-item-14 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/salud-publica" title=""
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Salud Pública</a>
+                                                            </li>
+                                                            <li id="menu-7419-1"
+                                                                class="last odd sf-item-15 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="/oferta-academica/arquitectura" title=""
+                                                                    class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Licenciatura en
+                                                                    Arquitectura</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-6551-1"
+                                                        class="middle odd sf-item-3 sf-depth-2 sf-total-children-2 sf-parent-children-2 sf-single-children-0 menuparent"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/oferta-academica/posgrados"
+                                                            title="" class="sf-depth-2 menuparent sf-with-ul"
+                                                            style="float: none; width: auto;">Posgrados<span
+                                                                class="sf-sub-indicator"> »</span></a>
+                                                        <ul style="left: 12em; float: none; width: 12em;"
+                                                            class="sf-hidden">
+                                                            <li id="menu-6556-1"
+                                                                class="first odd sf-item-1 sf-depth-3 sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/posgrados?qt-view__oferta_acad_mica__page_2=0#qt-view__oferta_acad_mica__page_2"
+                                                                    title="" class="sf-depth-3 menuparent sf-with-ul"
+                                                                    style="float: none; width: auto;">Maestrías<span
+                                                                        class="sf-sub-indicator"> »</span></a>
+                                                                <ul class="sf-megamenu sf-hidden" style="left: 12em;">
+                                                                    <li
+                                                                        class="sf-megamenu-wrapper first odd sf-item-1 sf-depth-3 sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent">
+                                                                        <ol>
+                                                                            <li id="menu-9165-1"
+                                                                                class="first odd sf-item-1 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/mca"
+                                                                                    title="" class="sf-depth-4">Maestría
+                                                                                    en Ciencias Antropológicas</a>
+                                                                            </li>
+                                                                            <li id="menu-9067-1"
+                                                                                class="middle even sf-item-2 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/mccd"
+                                                                                    title="" class="sf-depth-4">Maestría
+                                                                                    en Ciencias de la Ciudad</a>
+                                                                            </li>
+                                                                            <li id="menu-6560-1"
+                                                                                class="middle odd sf-item-3 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/mcae"
+                                                                                    title="" class="sf-depth-4">Maestría
+                                                                                    en Ciencias en Ingeniería del Agua y
+                                                                                    la Energía (Investigación)</a>
+                                                                            </li>
+                                                                            <li id="menu-9478-1"
+                                                                                class="middle even sf-item-4 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/MEB"
+                                                                                    title="" class="sf-depth-4">Maestría
+                                                                                    en Bioética</a>
+                                                                            </li>
+                                                                            <li id="menu-9446-1"
+                                                                                class="middle odd sf-item-5 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/meg"
+                                                                                    title="" class="sf-depth-4">Maestría
+                                                                                    en Geología</a>
+                                                                            </li>
+                                                                            <li id="menu-6558-1"
+                                                                                class="middle even sf-item-6 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/mggl"
+                                                                                    title="" class="sf-depth-4">Maestría
+                                                                                    en Gestión de Gobiernos Locales</a>
+                                                                            </li>
+                                                                            <li id="menu-6552-1"
+                                                                                class="middle odd sf-item-7 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/mmutt/"
+                                                                                    title="" class="sf-depth-4">Maestría
+                                                                                    en Movilidad Urbana, Transporte y
+                                                                                    Territorio</a>
+                                                                            </li>
+                                                                            <li id="menu-6559-1"
+                                                                                class="last even sf-item-8 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/mae"
+                                                                                    title="" class="sf-depth-4">Maestría
+                                                                                    en Ingeniería del Agua y la Energía
+                                                                                    (Profesionalizante)</a>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li id="menu-6557-1"
+                                                                class="last even sf-item-2 sf-depth-3 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/posgrados?qt-view__oferta_acad_mica__page_2=1#qt-view__oferta_acad_mica__page_2"
+                                                                    title="" class="sf-depth-3 menuparent sf-with-ul"
+                                                                    style="float: none; width: auto;">Doctorados<span
+                                                                        class="sf-sub-indicator"> »</span></a>
+                                                                <ul class="sf-megamenu sf-hidden" style="left: 12em;">
+                                                                    <li
+                                                                        class="sf-megamenu-wrapper last even sf-item-2 sf-depth-3 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent">
+                                                                        <ol>
+                                                                            <li id="menu-6561-1"
+                                                                                class="first odd sf-item-1 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/dae"
+                                                                                    title=""
+                                                                                    class="sf-depth-4">Doctorado en Agua
+                                                                                    y Energía</a>
+                                                                            </li>
+                                                                            <li id="menu-6562-1"
+                                                                                class="middle even sf-item-2 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/ddh"
+                                                                                    title=""
+                                                                                    class="sf-depth-4">Doctorado en
+                                                                                    Derechos Humanos</a>
+                                                                            </li>
+                                                                            <li id="menu-9447-1"
+                                                                                class="middle odd sf-item-3 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/deg"
+                                                                                    title=""
+                                                                                    class="sf-depth-4">Doctorado en
+                                                                                    Geología</a>
+                                                                            </li>
+                                                                            <li id="menu-6563-1"
+                                                                                class="middle even sf-item-4 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/DIMS"
+                                                                                    title=""
+                                                                                    class="sf-depth-4">Doctorado en
+                                                                                    Investigación Multidisciplinaria en
+                                                                                    Salud</a>
+                                                                            </li>
+                                                                            <li id="menu-6564-1"
+                                                                                class="last odd sf-item-5 sf-depth-4 sf-no-children">
+                                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/dmutt/"
+                                                                                    title=""
+                                                                                    class="sf-depth-4">Doctorado en
+                                                                                    Movilidad Urbana, Transporte y
+                                                                                    Territorio</a>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-6334-1"
+                                                        class="last even sf-item-4 sf-depth-2 sf-total-children-19 sf-parent-children-0 sf-single-children-19 menuparent"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/oferta-academica/diplomados"
+                                                            title="" class="sf-depth-2 menuparent sf-with-ul"
+                                                            style="float: none; width: auto;">Diplomados<span
+                                                                class="sf-sub-indicator"> »</span></a>
+                                                        <ul style="left: 12em; float: none; width: 12em;"
+                                                            class="sf-hidden">
+                                                            <li id="menu-8930-1"
+                                                                class="first odd sf-item-1 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DEGES"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Gestión Energética Sostenible</a>
+                                                            </li>
+                                                            <li id="menu-8931-1"
+                                                                class="middle even sf-item-2 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DFC"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Fotografía Científica</a>
+                                                            </li>
+                                                            <li id="menu-8932-1"
+                                                                class="middle odd sf-item-3 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DDH"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado de
+                                                                    Derechos Humanos en México</a>
+                                                            </li>
+                                                            <li id="menu-8933-1"
+                                                                class="middle even sf-item-4 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DGRPC"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Gestión de Riesgos y Protección Civil</a>
+                                                            </li>
+                                                            <li id="menu-8934-1"
+                                                                class="middle odd sf-item-5 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DIER"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado
+                                                                    Internacional en Energías Renovables</a>
+                                                            </li>
+                                                            <li id="menu-8935-1"
+                                                                class="middle even sf-item-6 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DDSDA"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Desarrollo Sustentable y Derecho Ambiental</a>
+                                                            </li>
+                                                            <li id="menu-8936-1"
+                                                                class="middle odd sf-item-7 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DEFN"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Emprendimiento y Formulación de Negocios</a>
+                                                            </li>
+                                                            <li id="menu-8937-1"
+                                                                class="middle even sf-item-8 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DPPPG"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Políticas Públicas con Perspectiva de Género</a>
+                                                            </li>
+                                                            <li id="menu-8939-1"
+                                                                class="middle odd sf-item-9 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DDELP"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Didáctica del Español como Lengua Primera</a>
+                                                            </li>
+                                                            <li id="menu-8941-1"
+                                                                class="middle even sf-item-10 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DEAAPDDI"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Especialización en Artesanía y Artes Populares para
+                                                                    Despachos de Diseño e Interiorismo</a>
+                                                            </li>
+                                                            <li id="menu-8943-1"
+                                                                class="middle odd sf-item-11 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DMICS"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Metodología de la Investigación en Ciencias
+                                                                    Sociales</a>
+                                                            </li>
+                                                            <li id="menu-8945-1"
+                                                                class="middle even sf-item-12 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DDPP"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Diseño de Políticas Públicas</a>
+                                                            </li>
+                                                            <li id="menu-8947-1"
+                                                                class="middle odd sf-item-13 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DEPP"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Evaluación de Políticas Públicas</a>
+                                                            </li>
+                                                            <li id="menu-8949-1"
+                                                                class="middle even sf-item-14 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DIPG"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Innovación Pública y Gobernanza</a>
+                                                            </li>
+                                                            <li id="menu-8951-1"
+                                                                class="middle odd sf-item-15 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DIA"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Innovación Artesanal</a>
+                                                            </li>
+                                                            <li id="menu-8953-1"
+                                                                class="middle even sf-item-16 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DEH"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Hidráulica</a>
+                                                            </li>
+                                                            <li id="menu-8955-1"
+                                                                class="middle odd sf-item-17 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DTPDPFUT"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Transparencia y Protección de Datos Personales para
+                                                                    Funcionarios de la UT (Unidades de
+                                                                    Transparencia)</a>
+                                                            </li>
+                                                            <li id="menu-8957-1"
+                                                                class="middle even sf-item-18 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DMASC"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado en
+                                                                    Mecanismos Alternos para la Solución de
+                                                                    Controversias</a>
+                                                            </li>
+                                                            <li id="menu-8959-1"
+                                                                class="last odd sf-item-19 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/oferta-academica/diplomados/DBLA"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Diplomado las
+                                                                    Bibliotecas y el Libro Antiguo</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-6188-1"
+                                                class="middle odd sf-item-3 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent">
+                                                <a href="http://www.cutonala.udg.mx/coordinacion_investigacion" title=""
+                                                    class="sf-depth-1 menuparent sf-with-ul">Coordinación de
+                                                    Investigación<span class="sf-sub-indicator"> »</span></a>
+                                                <ul style="float: none; width: 12em;" class="sf-hidden">
+                                                    <li id="menu-6244-1"
+                                                        class="first odd sf-item-1 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/cuerposacademicos"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Cuerpos Academicos</a>
+                                                    </li>
+                                                    <li id="menu-7740-1"
+                                                        class="middle even sf-item-2 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/incorporacion-temprana"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Incorporación Temprana a
+                                                            la Investigación</a></li>
+                                                    <li id="menu-6189-1"
+                                                        class="middle odd sf-item-3 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/directorio-sni"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Directorio de
+                                                            Investigadores SNI</a></li>
+                                                    <li id="menu-6262-1"
+                                                        class="middle even sf-item-4 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/patentes"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Patentes</a></li>
+                                                    <li id="menu-8117-1"
+                                                        class="middle odd sf-item-5 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/prodep"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Profesores PRODEP</a></li>
+                                                    <li id="menu-6190-1"
+                                                        class="middle even sf-item-6 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/unidades-de-investigacion"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Laboratorios, Centros,
+                                                            Institutos</a></li>
+                                                    <li id="menu-9351-1"
+                                                        class="last odd sf-item-7 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/transferencia-cientifica"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Transferencia Científica y
+                                                            Tecnológica</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-4678-1"
+                                                class="middle even sf-item-4 sf-depth-1 sf-total-children-10 sf-parent-children-0 sf-single-children-10 menuparent">
+                                                <a href="http://www.cutonala.udg.mx/centro/coordinacion_extension"
+                                                    title="" class="sf-depth-1 menuparent sf-with-ul">Extensión y
+                                                    difusión<span class="sf-sub-indicator"> »</span></a>
+                                                <ul style="float: none; width: 12em;" class="sf-hidden">
+                                                    <li id="menu-5201-1"
+                                                        class="first odd sf-item-1 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/centro/coordinacion_extension" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Coordinación de
+                                                            Extensión</a></li>
+                                                    <li id="menu-9350-1"
+                                                        class="middle even sf-item-2 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/comed" title=""
+                                                            class="sf-depth-2" style="float: none; width: auto;">Comité
+                                                            Editorial</a></li>
+                                                    <li id="menu-9344-1"
+                                                        class="middle odd sf-item-3 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/centro/coordinacion_extension/difusioncultural"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Difusión Cultural</a></li>
+                                                    <li id="menu-9347-1"
+                                                        class="middle even sf-item-4 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/centro/coordinacion_extension/FomentoDeportivo"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Fomento Deportivo</a></li>
+                                                    <li id="menu-9346-1"
+                                                        class="middle odd sf-item-5 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/centro/coordinacion_extension/VentealCUT"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Vente al CUT</a></li>
+                                                    <li id="menu-9345-1"
+                                                        class="middle even sf-item-6 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/centro/coordinacion_extension/vinculacion"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Vinculación</a></li>
+                                                    <li id="menu-9348-1"
+                                                        class="middle odd sf-item-7 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/centro/coordinacion_extension/ServicioSocial"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Servicio Social</a></li>
+                                                    <li id="menu-9349-1"
+                                                        class="middle even sf-item-8 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/centro/coordinacion_extension/ResponsabilidadSocialUniversitaria"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Responsabilidad Social
+                                                            Universitaria</a></li>
+                                                    <li id="menu-9545-1"
+                                                        class="middle odd sf-item-9 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/centro/coordinacion_extension/bolsa-de-trabajo"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Bolsa de trabajo</a></li>
+                                                    <li id="menu-4819-1"
+                                                        class="last even sf-item-10 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/ComunicacionSocial" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Comunicación Social</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-1856-1"
+                                                class="middle odd sf-item-5 sf-depth-1 sf-total-children-12 sf-parent-children-0 sf-single-children-12 menuparent">
+                                                <a href="http://www.cutonala.udg.mx/servicios" title=""
+                                                    class="sf-depth-1 menuparent sf-with-ul">Servicios a la Comunidad
+                                                    CUT<span class="sf-sub-indicator"> »</span></a>
+                                                <ul style="float: none; width: 12em;" class="sf-hidden">
+                                                    <li id="menu-5276-1"
+                                                        class="first odd sf-item-1 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/servicios/servicios-academicos/unidad-becas-intercambio"
+                                                            class="sf-depth-2" style="float: none; width: auto;">Becas e
+                                                            Intercambio</a></li>
+                                                    <li id="menu-1852-1"
+                                                        class="middle even sf-item-2 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/servicios/control-escolar" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Control Escolar</a></li>
+                                                    <li id="menu-4812-1"
+                                                        class="middle odd sf-item-3 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/CGI" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Centro Global de
+                                                            Idiomas</a></li>
+                                                    <li id="menu-8119-1"
+                                                        class="middle even sf-item-4 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/centro/coordinacion_extension/ServicioSocial"
+                                                            class="sf-depth-2"
+                                                            style="float: none; width: auto;">Servicio Social</a></li>
+                                                    <li id="menu-1853-1"
+                                                        class="middle odd sf-item-5 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/servicios/servicios-academicos" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Servicios Académicos</a>
+                                                    </li>
+                                                    <li id="menu-4811-1"
+                                                        class="middle even sf-item-6 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/centro/sac/cta" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Coordinación de
+                                                            Tecnologías para el Aprendizaje (CTA)</a></li>
+                                                    <li id="menu-4810-1"
+                                                        class="middle odd sf-item-7 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/servicios/servicios-biblioteca" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Servicios de
+                                                            Biblioteca</a></li>
+                                                    <li id="menu-5228-1"
+                                                        class="middle even sf-item-8 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/servicios/serviciosuniversitarios"
+                                                            title="Servicios a Universitarios" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Servicios a
+                                                            Universitarios</a></li>
+                                                    <li id="menu-4815-1"
+                                                        class="middle odd sf-item-9 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/bienvenidoalcut/Rutas_de_Cami%C3%B3n"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Rutas de camión
+                                                            -CUTonalá</a></li>
+                                                    <li id="menu-4816-1"
+                                                        class="middle even sf-item-10 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/servicios/emergencias" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Emergencias</a></li>
+                                                    <li id="menu-5227-1"
+                                                        class="middle odd sf-item-11 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="/servicios/consultorio" title="Consultorio Médico"
+                                                            class="sf-depth-2"
+                                                            style="float: none; width: auto;">Consultorio Médico</a>
+                                                    </li>
+                                                    <li id="menu-5442-1"
+                                                        class="last even sf-item-12 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/egresados"
+                                                            title="La Coordinación de Egresados y Ex Alumnos es la instancia encargada de estrechar la vinculación entre la Universidad de Guadalajara y aquellos que se formaron en sus aulas."
+                                                            class="sf-depth-2"
+                                                            style="float: none; width: auto;">Egresados</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-8830-1"
+                                                class="middle even sf-item-6 sf-depth-1 sf-total-children-10 sf-parent-children-1 sf-single-children-9 menuparent">
+                                                <a href="http://www.cutonala.udg.mx/catalogodeservicios" title=""
+                                                    class="sf-depth-1 menuparent sf-with-ul">Catalogo de Servicios<span
+                                                        class="sf-sub-indicator"> »</span></a>
+                                                <ul style="float: none; width: 12em;" class="sf-hidden">
+                                                    <li id="menu-9333-1"
+                                                        class="first odd sf-item-1 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/oferta-academica" title=""
+                                                            class="sf-depth-2"
+                                                            style="float: none; width: auto;">Formación Profesional</a>
+                                                    </li>
+                                                    <li id="menu-9334-1"
+                                                        class="middle even sf-item-2 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/diplomados" title=""
+                                                            class="sf-depth-2"
+                                                            style="float: none; width: auto;">Educación Continua</a>
+                                                    </li>
+                                                    <li id="menu-9335-1"
+                                                        class="middle odd sf-item-3 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/unidades-de-investigacion"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Laboratorios</a></li>
+                                                    <li id="menu-9336-1"
+                                                        class="middle even sf-item-4 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/unidades-de-investigacion/instituto-de-energias-renovables"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Instituto de Energías
+                                                            Renovables</a></li>
+                                                    <li id="menu-9337-1"
+                                                        class="middle odd sf-item-5 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/crece" title=""
+                                                            class="sf-depth-2" style="float: none; width: auto;">Centro
+                                                            Regional para la Calidad Empresarial (CReCE)</a></li>
+                                                    <li id="menu-9338-1"
+                                                        class="middle even sf-item-6 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/unidades-de-investigacion/taller-de-artesanias"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Talleres de Artesanias</a>
+                                                    </li>
+                                                    <li id="menu-9339-1"
+                                                        class="middle odd sf-item-7 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/coordinacion_investigacion/unidades-de-investigacion/centros/cims"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Centro de investigación
+                                                            Multidisciplinario en Salud (CIMS)</a></li>
+                                                    <li id="menu-9340-1"
+                                                        class="middle even sf-item-8 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/centro/coordinacion_extension"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Vinculación para la
+                                                            Transformación Social</a></li>
+                                                    <li id="menu-9341-1"
+                                                        class="middle odd sf-item-9 sf-depth-2 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/CatalogodeServicios"
+                                                            title="" class="sf-depth-2 menuparent sf-with-ul"
+                                                            style="float: none; width: auto;">Programas
+                                                            Universitarios<span class="sf-sub-indicator"> »</span></a>
+                                                        <ul style="left: 12em; float: none; width: 12em;"
+                                                            class="sf-hidden">
+                                                            <li id="menu-9342-1"
+                                                                class="firstandlast odd sf-item-1 sf-depth-3 sf-no-children"
+                                                                style="white-space: normal; float: left; width: 100%;">
+                                                                <a href="http://www.cutonala.udg.mx/CatalogodeServicios/programas-universitarios/practicas-profesionales"
+                                                                    title="" class="sf-depth-3"
+                                                                    style="float: none; width: auto;">Catalogo Practicas
+                                                                    profesionales</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-9343-1"
+                                                        class="last even sf-item-10 sf-depth-2 sf-no-children"
+                                                        style="white-space: normal; float: left; width: 100%;"><a
+                                                            href="http://www.cutonala.udg.mx/catalogodeservicios/mas-informacion"
+                                                            title="" class="sf-depth-2"
+                                                            style="float: none; width: auto;">Más información</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-5424-1" class="last odd sf-item-7 sf-depth-1 sf-no-children"><a
+                                                    href="https://mw.siiau.udg.mx/Portal/login.xhtml"
+                                                    title="Trámites escolares en línea." class="sf-depth-1">Ventanilla
+                                                    Única</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="section-content" class="section section-content">
+            <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">
+                <div id="zone-content" class="zone zone-content clearfix container-12">
+
+                    <div id="messages" class="grid-12">
+                        <div class="messages error">
+                            <h2 class="element-invisible">Mensaje de error</h2>
+                            <em class="placeholder">Warning</em>: Constants may only evaluate to scalar values en <em
+                                class="placeholder">include_once()</em> (línea <em class="placeholder">7</em> de <em
+                                class="placeholder">/wwwdata/www/modules/pwa/pwa.module</em>).
+                        </div>
+                    </div>
+                    <div class="grid-12 region region-content" id="region-content">
+                        <div class="region-inner region-content-inner">
+                            <a id="main-content"></a>
+                            <h1 class="title" id="page-title">Política de privacidad y manejo de datos</h1>
+                            <div class="block block-system block-main block-system-main odd block-without-title"
+                                id="block-system-main">
+                                <div class="block-inner clearfix">
+
+                                    <div class="content clearfix">
+                                        <article about="/info/politica-de-privacidad-y-manejo-de-datos"
+                                            typeof="foaf:Document"
+                                            class="node node-page node-published node-not-promoted node-not-sticky author-admin odd clearfix"
+                                            id="node-page-3">
+                                            <span property="dc:title" content="Política de privacidad y manejo de datos"
+                                                class="rdf-meta element-hidden"></span><span property="sioc:num_replies"
+                                                content="0" datatype="xsd:integer"
+                                                class="rdf-meta element-hidden"></span>
+
+                                            <div class="content clearfix">
+                                                <div
+                                                    class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                                    <div class="field-items">
+                                                        <div class="field-item even" property="content:encoded">
+                                                            <p><em>Actualizada el 17 de julio de 2014</em></p>
+                                                            <h3>
+                                                                Políticas de publicación en sitios web udg.mx</h3>
+                                                            <p>Los sitios web de la <strong>Universidad de
+                                                                    Guadalajara</strong> tiene como objetivo presentar
+                                                                contenidos dirigidos hacia los integrantes de su
+                                                                comunidad universitaria y público en general, que apoyen
+                                                                cumplir los fines establecidos en el artículo 5 de su
+                                                                Ley Orgánica; con la misión y visión descritas en su
+                                                                <strong>Plan de Desarrollo Institucional
+                                                                    2014-2030</strong>. De esta manera, se busca
+                                                                fortalecer su presencia en internet y ser la fuente de
+                                                                información institucional oportuna y confiable. A fin de
+                                                                asegurar el logro de este objetivo, se han definido los
+                                                                siguientes lineamientos generales para la publicación de
+                                                                los sitios web:
+                                                            </p>
+                                                            <ol type="1" start="1">
+                                                                <li>
+                                                                    Toda la información será verificada por los editores
+                                                                    del sitio para garantizar su veracidad, oportunidad
+                                                                    y exactitud antes y durante su publicación.</li>
+                                                                <li>
+                                                                    La información publicada en el sitio deberá ser de
+                                                                    utilidad a la comunidad universitaria y siempre
+                                                                    buscará destacar los aspectos que favorezcan la
+                                                                    buena imagen de la Universidad de Guadalajara, el
+                                                                    respeto de los derechos humanos, el fomento de la
+                                                                    cultura de la legalidad y bienestar de la sociedad.
+                                                                </li>
+                                                                <li>
+                                                                    Este sitio será un espacio de expresión democrática
+                                                                    de los miembros de la comunidad universitaria, por
+                                                                    lo que siempre se privilegiará la difusión de
+                                                                    opiniones plurales que se hagan dentro de un marco
+                                                                    de respeto, tolerancia e imparcialidad.</li>
+                                                                <li>
+                                                                    No se podrá hacer ningún tipo de proselitismo de
+                                                                    ideas políticas o gremiales, así como no están
+                                                                    permitidos los contenidos que promuevan violencia,
+                                                                    sectarismo, intolerancia, racismo, vicios o
+                                                                    cualquier acto ilícito.</li>
+                                                                <li>
+                                                                    Se tiene prohibida la comercialización de los
+                                                                    espacios dentro de este sitio web. Si fuese
+                                                                    necesario publicar algún contenido especial por una
+                                                                    institución externa a la Universidad de Guadalajara,
+                                                                    deberá solicitarse de manera formal a los
+                                                                    administradores del sitio, donde deberán especificar
+                                                                    las características y duración de dicha publicación.
+                                                                    Ningún acuerdo de publicación con una entidad
+                                                                    externa podrá ser vitalicio.</li>
+                                                                <li>
+                                                                    Toda petición de publicación en este sitio, que
+                                                                    provenga de las diferentes entidades de la Red
+                                                                    Universitaria, deberá solicitarse de manera formal a
+                                                                    los administradores del sitio. Cada solicitud de
+                                                                    publicación deberá incluir los siguientes datos.
+                                                                </li>
+                                                            </ol>
+                                                            <ol type="1" start="1">
+                                                                <li>
+                                                                    <ul type="disc">
+                                                                        <li>
+                                                                            Nombre completo y cargo de quien lo
+                                                                            solicita.</li>
+                                                                        <li>
+                                                                            Dependencia a la que se encuentra adscrito.
+                                                                        </li>
+                                                                        <li>
+                                                                            Nombre del evento, actividad, así como una
+                                                                            breve descripción de un párrafo.</li>
+                                                                        <li>
+                                                                            Duración y vigencia de su publicación.</li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ol>
+                                                            <ol type="1" start="7">
+                                                                <li>
+                                                                    Estas políticas de publicación son susceptibles de
+                                                                    actualizarse para mejorar el servicio que se ofrece
+                                                                    en este sitio web, por lo que se recomienda
+                                                                    revisarlas periódicamente en esta misma dirección.
+                                                                </li>
+                                                            </ol>
+                                                            <hr>
+                                                            <h3>
+                                                                Política de privacidad y confidencialidad para los
+                                                                sitios web udg.mx</h3>
+                                                            <p>Este documento enuncia a la política de privacidad y
+                                                                confidencialidad de los sitios que forman parte de la
+                                                                Universidad de Guadalajara y que emplean el dominio
+                                                                udg.mx.<br>
+                                                                Esta política de privacidad y confidencialidad establece
+                                                                que datos obtiene la Universidad de Guadalajara de los
+                                                                usuarios que visitan los sitios web de su Red
+                                                                Universitaria; la manera en que protege la información
+                                                                personal que el usuario proporciona al momento en que
+                                                                hace uso los sitios web y, también le permite conocer
+                                                                cómo se procesa y utiliza esta información.<br>
+                                                                La Universidad de Guadalajara se compromete a garantizar
+                                                                que su privacidad sea protegida cuando visita uno de sus
+                                                                sitios web. Si por alguna razón, le solicitamos a un
+                                                                usuario que proporcione cierta información será para
+                                                                poder identificarlo para brindar el servicio que
+                                                                solicite, puede estar seguro que la información es
+                                                                manejada de acuerdo a esta declaración de privacidad y
+                                                                confidencialidad, la cual le sugerimos leer para
+                                                                entender el tratamiento de su información personal.</p>
+                                                            <h4>
+                                                                Información que se recolecta en este sitio</h4>
+                                                            <p>Los datos que se pueden recopilar en los sitios web de la
+                                                                Universidad de Guadalajara son:</p>
+                                                            <ul type="disc">
+                                                                <li>
+                                                                    Información técnica del equipo con que accede al
+                                                                    sitio web. (Dirección IP, navegador que emplea,
+                                                                    versión, etc.)</li>
+                                                                <li>
+                                                                    Información estadística de la navegación del usuario
+                                                                    por el sitio web (archivos del sitio solicitados,
+                                                                    palabras claves utilizadas en motores de búsqueda,
+                                                                    etc.)</li>
+                                                                <li>
+                                                                    Información pertinente para el uso de encuestas o
+                                                                    sondeos de opinión en los sitios web.</li>
+                                                                <li>
+                                                                    Información de contacto cuando el usuario desee
+                                                                    comunicarse con los administradores de este sitio
+                                                                    web (correo electrónico, nombre, asunto, teléfono o
+                                                                    mensaje)</li>
+                                                            </ul>
+                                                            <h4>
+                                                                ¿Qué se hace con la información que se recolecta?</h4>
+                                                            <p>La información que se recolecta en este sitio se emplea
+                                                                para entender las necesidades de los usuarios y de esta
+                                                                forma proveer un mejor servicio; y de manera particular
+                                                                se emplea para:</p>
+                                                            <ul type="disc">
+                                                                <li>
+                                                                    Registro de actividad en los servidores.</li>
+                                                                <li>
+                                                                    Atención de problemas específicos de los sitios web
+                                                                    para su corrección.</li>
+                                                                <li>
+                                                                    Identificación y seguimiento de comentarios que se
+                                                                    reciban a través de las formas de contacto y correo
+                                                                    electrónico del sitio web.</li>
+                                                                <li>
+                                                                    Utilizar la información para mejorar los servicios
+                                                                    que se ofrecen en línea.</li>
+                                                            </ul>
+                                                            <h4>
+                                                                Tecnología empleada en los sitios web: Cookies</h4>
+                                                            <p>Una cookie es una pequeña pieza de información que es
+                                                                enviadas por el sitio web a su navegador. Las cookies se
+                                                                almacenan en el disco duro de su equipo y se utilizan
+                                                                para determinar sus preferencias cuando se conecta a los
+                                                                servicios de nuestros sitios, así como para rastrear
+                                                                determinados comportamientos o actividades llevadas a
+                                                                cabo por usted dentro de nuestros sitios.</p>
+                                                            <p>Las cookies permiten que los servicios que se ofrecen por
+                                                                el web, puedan adaptar su funcionamiento para que
+                                                                respondan a Usted como un usuario diferente del resto
+                                                                que visitan el sitio web y que esta identificación se
+                                                                refleje en que cada usuario tenga una experiencia
+                                                                personalizada al visitar este sitio.<br>
+                                                                Utilizamos cookies de registro del tráfico para
+                                                                identificar qué páginas se están visitando. Esto nos
+                                                                ayuda a analizar datos sobre el tráfico de la página web
+                                                                y mejorar la calidad de nuestro sitio web para adaptarlo
+                                                                y ajustar la información a las necesidades del cliente.
+                                                                Sólo utilizamos esta información para fines de análisis
+                                                                estadístico, por lo que después de esta acción los datos
+                                                                son eliminados automáticamente del sistema.</p>
+                                                            <p>En general, las cookies nos ayudan a brindarle una mejor
+                                                                experiencia de navegación al momento de visitar nuestro
+                                                                sitio web. Una cookie de ninguna manera nos da acceso a
+                                                                su computadora o a cualquier información sobre usted,
+                                                                excepto los datos que usted decida compartir con
+                                                                nosotros.<br>
+                                                                Como usuario siempre puede elegir entre aceptar o
+                                                                rechazar las cookies. La mayoría de los navegadores web
+                                                                están configurados para aceptar automáticamente las
+                                                                cookies, pero cada usuario puede modificar este permiso
+                                                                en el explorador para rechazar las cookies si así él lo
+                                                                prefiere, aunque esto puede afectar la manera en que
+                                                                funciona este sitio web.</p>
+                                                            <h4>
+                                                                Los enlaces a otros sitios web y correo electrónico</h4>
+                                                            <p>Los sitios web pueden tener enlaces a otros sitios webs o
+                                                                correos electrónicos ajenos a la red universitaria o que
+                                                                estén fuera del dominio udg.mx. Sin embargo, una vez que
+                                                                haya utilizado estos enlaces para salir de nuestro
+                                                                sitio, debe tener en cuenta que los administradores de
+                                                                la Universidad de Guadalajara no tienen ningún control
+                                                                sobre estos sitios web. Por lo tanto, no podemos ser
+                                                                responsables de la protección y la privacidad de
+                                                                cualquier información confidencial o no confidencial que
+                                                                los usuarios proporcionen al visitar los mismos, ya que
+                                                                quedarán sujeto a las políticas de privacidad y manejo
+                                                                de datos de estos sitios web.</p>
+                                                            <p>La Universidad de Guadalajara no se hace responsable
+                                                                cuando el usuario proporcione información de cualquier
+                                                                tipo, a los enlaces y/o correos electrónicos publicados
+                                                                diferentes al de los administradores de los sitios de la
+                                                                Universidad de Guadalajara, incluyendo funcionarios y
+                                                                dependencias de esta institución; el manejo de esta
+                                                                información quedará bajo la responsabilidad y propio
+                                                                riesgo del usuario.</p>
+                                                            <h4>
+                                                                Seguridad de la información</h4>
+                                                            <p>De conformidad con los artículos 25, fracciones XV, XVII,
+                                                                XIX, XX y 26, fracción IV de la Ley de Transparencia y
+                                                                Acceso a la información pública del estado de Jalisco y
+                                                                sus municipios, estamos comprometidos a asegurar que su
+                                                                información personal esté protegida. Con el fin de
+                                                                evitar el acceso no autorizado o divulgación, se cuenta
+                                                                con la infraestructura física e informática, así como
+                                                                los procedimientos administrativos apropiados para
+                                                                salvaguardar y asegurar la información que recopilamos
+                                                                en línea.</p>
+                                                            <h4>
+                                                                Confidencialidad de datos personales</h4>
+                                                            <p>Cuando se encuentre haciendo uso del sitio web y le sean
+                                                                solicitados datos personales, Usted compartirá esta
+                                                                información sólo con la Universidad de Guadalajara, ya
+                                                                que esta casa de estudios no compartirá la información
+                                                                confidencial con terceras personas, salvo que sea
+                                                                requerida por orden judicial o que Usted de manera
+                                                                expresa lo autorice de conformidad con la ley en la
+                                                                materia.<br>
+                                                                La Universidad de Guadalajara puede difundir las
+                                                                estadísticas de acceso a su sitio web del conjunto de
+                                                                sus usuarios para describir nuestros servicios y para
+                                                                otros propósitos lícitos en los casos que marque la
+                                                                ley.<br>
+                                                                En todo momento, la Universidad de Guadalajara está
+                                                                atenta a las inquietudes que manifiesten sus usuarios
+                                                                respecto al manejo de la información que proporcionen
+                                                                para los diversos procesos en línea.<br>
+                                                                La Universidad de Guadalajara se reserva el derecho de
+                                                                realizar actualizaciones a esta política de privacidad
+                                                                por lo que le recomendamos revisar este documento
+                                                                periódicamente para estar enterado de estos cambios.</p>
+                                                            <hr>
+                                                            <h3>
+                                                                Declaración del límite de responsabilidad</h3>
+                                                            <p><strong>Sobre el origen de los contenidos. </strong>Los
+                                                                contenidos publicados en este sitio web de la
+                                                                Universidad de Guadalajara son exclusivamente de
+                                                                carácter informativo. La información que se presenta es,
+                                                                en la mayoría de los casos, proporcionada por entidades
+                                                                de la red universitaria y a menos que se especifique lo
+                                                                contrario, se puede consultar a través de los créditos
+                                                                de este sitio web.</p>
+                                                            <p><strong>Sobre la veracidad y exactitud de la información.
+                                                                </strong>Los responsables del sitio, se encargan de
+                                                                verificar la veracidad y exactitud de la información que
+                                                                se presente. En los casos en que exista alguna
+                                                                corrección u observación de los contenidos del sitio se
+                                                                deberá enviar a través de uno de los métodos que son
+                                                                mencionados en la página de créditos del sitio, para su
+                                                                verificación y en su caso, la corrección.<br>
+                                                                Sobre los enlaces a sitios ajenos. A través de este
+                                                                sitio web se pueden encontrar enlaces hacia otros sitios
+                                                                web que no están bajo el control de la UDG, por lo que
+                                                                el contenido presentado en ellos o su disponibilidad
+                                                                depende de sus responsables. En los casos en que el
+                                                                enlace referencie a un evento, actividad, convocatoria o
+                                                                promoción, son sus organizadores los responsables de la
+                                                                exactitud y fiabilidad de la información, así como de
+                                                                todo lo relacionado a la ejecución.</p>
+                                                            <p><strong>Sobre la disponibilidad del servicio.
+                                                                </strong>Los responsables de este sitio web se
+                                                                comprometen a hacer todo lo posible para tenerlo siempre
+                                                                disponible al público, sin embargo no nos hacemos
+                                                                responsables de problemas técnicos fuera de nuestro
+                                                                control que ocasione fallas temporales.<br>
+                                                                La Universidad de Guadalajara se reserva el derecho de
+                                                                realizar actualizaciones a esta declaración del límite
+                                                                de responsabilidad por lo que le recomendamos revisar
+                                                                este documento periódicamente para estar enterado de
+                                                                estos cambios.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="clearfix">
+                                                <nav class="links node-links clearfix"></nav>
+
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer INICIO -->
+        <footer class="text-center text-lg-start bg-dark text-muted  ">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center p-2 align-items-center align-text-center ">
+                <!-- Left -->
+                <div class="me-4 d-none d-lg-block">
+                    <span class=" fw-bold text-light">Síguenos en nuestras redes sociales:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div class="p-3">
+                    <a href="" class="me-4 text-reset"><i class="bi bi-facebook"
+                            style="font-size: 2rem; color: cornflowerblue;"></i></a>
+                    <a href="" class="me-4 text-reset"><i class="bi bi-twitter"
+                            style="font-size: 2rem; color: rgb(118, 213, 250);"></i></a>
+                    <a href="" class="me-4 text-reset"><i class="bi bi-youtube"
+                            style="font-size: 2rem; color: rgb(247, 33, 33);"></i></a>
+                    <a href="" class="me-4 text-reset"><i class="bi bi-search"
+                            style="font-size: 2rem; color: rgb(215, 217, 219);"></i></a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links en pantalla grande -->
+            <section class="d-none d-md-block">
+                <div class="container text-center text-md-start mt-2">
+                    <!-- Grid row -->
+                    <div class="row mt-1">
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-3 col-xl-4 mx-auto mb-1">
+                            <h6 class=" fw-bold mb-4 text-start align-text-bottom" style="color:rgb(51, 182, 243);">
+                                Administrado por: Centro Universitario de Tonalá
+                                <a href="index.html" class="nav-link text-muted">Aviso de Privacidad</a>
+                                <a href="comoFunciona.html" class="nav-link text-muted">Términos y Condiciones</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-1">
+                            <!-- Links -->
+                            <h6 class="mb-4 text-center align-text-bottom">
+                                <p class="fw-bold" style="color:rgb(51, 182, 243);">Sitio desarrollado por alumnos de:
+                                </p>
+                                Licenciatura en Ingeniería en Ciencias Computacionales
+                                <br>
+                                Derechos Reservados Universidad de Guadalajara © 2022
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-3 col-xl-4 mx-auto mb-1">
+                            <!-- Links -->
+                            <h6 class=" mb-4 text-end align-text-bottom">
+                                <p class="fw-bold" style="color:rgb(51, 182, 243);">Servicios Generales de
+                                    Administración</p>
+                                <p>Campus CUTonalá Av. Nuevo Periférico No. 555 Ejido San José Tateposco, C.P. 45425,
+                                    Tonalá Jalisco, México
+                                </p>
+                                <p>+52 (33) 20 00 23 00 Ext. 64007 y 64044</p>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links en pantalla grande -->
+
+            <!-- Section: Links en pantalla chica -->
+            <section class=" d-md-none">
+                <div class="container text-center text-md-start mt-2">
+                    <!-- Grid row -->
+                    <div class="row mt-1">
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-3 col-xl-4 mx-auto mb-1">
+                            <h6 class=" fw-bold mb-4 text-center align-text-center" style="color:rgb(51, 182, 243);">
+                                Administrado por: Centro Universitario de Tonalá
+                                <a href="index.html" class="nav-link text-light">Aviso de Privacidad</a>
+                                <a href="comoFunciona.html" class="nav-link text-light">Términos y Condiciones</a>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-3 col-xl-4 mx-auto mb-1">
+                            <!-- Links -->
+                            <h6 class=" mb-4 text-center align-text-center">
+                                <p class="fw-bold" style="color:rgb(51, 182, 243);">Servicios Generales de
+                                    Administración</p>
+                                <p>Campus CUTonalá Av. Nuevo Periférico No. 555 Ejido San José Tateposco, C.P. 45425,
+                                    Tonalá Jalisco, México
+                                </p>
+                                <p>+52 (33) 20 00 23 00 Ext. 64007 y 64044</p>
+                            </h6>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links en pantalla grande -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                Copyright © CUTONALÁ 2022
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer FINAL -->
+
+        <!-- Modal INICIO -->
+        <div class="modal fade" id="iniciar" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <center>
+                            <h5 class="modal-title" id="enrollLabel">Iniciar sesión</h5>
+                        </center>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="lead"></p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="col-form-label">Correo Electrónico:</label>
+                                <input type="email" class="form-control" id="email" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="col-form-label">Contraseña:</label>
+                                <input type="password" class="form-control" id="phone" />
+                            </div>
+                            <br>
+                            <center>
+                                <h6 class="modal-title" id="recoverlLabel">¿Olividaste tu Contraseña?</h6>
+                            </center>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                        <a href="inicio.html" type="button" class="btn btn-primary">Enviar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
