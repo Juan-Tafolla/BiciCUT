@@ -24,35 +24,45 @@
     
     <!-- Navbar / Header -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-      <div class="container">
+      <div class="container d-flex justify-content-around">
         <img src="img/title_icon.png" alt="" width="40px" style="margin-right: 8px;">
         <a href="index.html" class="navbar-brand" style="font-size: 30px; font-weight: bold; color: rgb(19, 226, 122);">BiciCUT</a>
-
+  
         <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
+          class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon align-items-center align-text-center"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item me-5">
-              <a href="inicio.html" class="nav-link disabled">Menú</a>
+  
+        <div class="collapse navbar-collapse align-text-center " id="navmenu">
+          <ul class="navbar-nav mx-auto align-items-center">
+            <li class="space-vr">|</li>
+            <li class="nav-item mx-5">
+              <a href="inicio.html" class="nav-link disabled">Inicio</a>
             </li>
-            <li class="nav-item ms-5">
+            <li class="space-vr">|
+            </li>
+            <li class="nav-item mx-5">
               <a href="reportes.html" class="nav-link">Reportes</a>
             </li>
-            <li class="nav-item me-5 ms-5">
-              <a href="stats.html" class="nav-link">Historial</a>
+            <li class="space-vr">|
             </li>
-          </ul>
+            <li class="nav-item mx-5">
+              <a href="stats.html" class="nav-link">Estadísticas
+              </a>
+            </li>
+            <li class="space-vr">|
+            </li>
+            <li class="nav-item mx-5">
+              <a href="config.html" class="nav-link">Cuenta
+              </a>
+            </li>
+            <li class="space-vr">|
+            </li>
+            </ul>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <a href="index.html" class="btn btn-outline-light">Cerrar Sesión</a>
+          </div>
         </div>
-        <a href="index.html" type="button" class="btn btn-outline-light me-2"
-        >Cerrar Sesión</a>
-
       </div>
     </nav>
 
@@ -236,86 +246,9 @@
 
 <!-- Footer INICIO -->
     <footer class="text-center text-lg-start bg-dark text-muted  " >  
-    <br>
-    <!-- Section: Links en pantalla grande -->
-    <section class="d-none d-md-block">
-      <div class="container text-center text-md-start mt-2">
-        <!-- Grid row -->
-        <div class="row mt-1">
-          
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-3 col-xl-4 mx-auto mb-1">
-            <h6 class=" fw-bold mb-4 text-start align-text-bottom" style="color:rgb(51, 182, 243);">
-              Administrado por: Centro Universitario de Tonalá
-                  <a href="index.html" class="nav-link text-muted" >Aviso de Privacidad</a>
-                  <a href="comoFunciona.html" class="nav-link text-muted">Términos y Condiciones</a>
-            </h6>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-1">
-            <!-- Links -->
-            <h6 class="mb-4 text-center align-text-bottom">
-              <p class="fw-bold" style="color:rgb(51, 182, 243);">Sitio desarrollado por alumnos de: </p> 
-               Licenciatura en Ingeniería en Ciencias Computacionales
-               <br>
-               Derechos Reservados Universidad de Guadalajara © 2022
-            </h6>
-          </div>
-          <!-- Grid column -->
-          
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-3 col-xl-4 mx-auto mb-1">
-            <!-- Links -->
-            <h6 class=" mb-4 text-end align-text-bottom">
-              <p class="fw-bold" style="color:rgb(51, 182, 243);">Servicios Generales de Administración</p>
-              <p>Campus CUTonalá Av. Nuevo Periférico No. 555 Ejido San José Tateposco, C.P. 45425, Tonalá Jalisco, México
-              </p><p>+52 (33) 20 00 23 00 Ext. 64007 y 64044</p>
-            </h6>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links en pantalla grande -->
-    
-    <!-- Section: Links en pantalla chica -->
-    <section class=" d-md-none">
-      <div class="container text-center text-md-start mt-2">
-        <!-- Grid row -->
-        <div class="row mt-1">
-          
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-3 col-xl-4 mx-auto mb-1">
-            <h6 class=" fw-bold mb-4 text-center align-text-center" style="color:rgb(51, 182, 243);">
-              Administrado por: Centro Universitario de Tonalá
-                  <a href="index.html" class="nav-link text-light" >Aviso de Privacidad</a>
-                  <a href="comoFunciona.html" class="nav-link text-light">Términos y Condiciones</a>
-            </h6>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-3 col-xl-4 mx-auto mb-1">
-            <!-- Links -->
-            <h6 class=" mb-4 text-center align-text-center">
-              <p class="fw-bold" style="color:rgb(51, 182, 243);">Servicios Generales de Administración</p>
-              <p>Campus CUTonalá Av. Nuevo Periférico No. 555 Ejido San José Tateposco, C.P. 45425, Tonalá Jalisco, México
-              </p><p>+52 (33) 20 00 23 00 Ext. 64007 y 64044</p>
-            </h6>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links en pantalla grande -->
-
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      Copyright © CUTONALÁ 2022
+      Derechos reservados: Universidad de Guadalajara © 2022
     </div>
     <!-- Copyright -->
   </footer>
