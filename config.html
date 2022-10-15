@@ -62,9 +62,83 @@
     </div>
   </nav>
 
+  <section id="configuracion" class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div class="col-md">
+          <center>
+            <h1>Detalles de la Cuenta</h1>
+          </center>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+  </section>
 
-
-
+  <section class="p-5">
+    <br>
+    <div class="container-fluid">
+      <div class="align-items-center justify-content-between" style="text-align:center">
+        <div style="text-align:left">
+          <!-- Account details card-->
+          <div class="card mb-4">
+            <div class="card-header" style="text-align:left">@Usuario</div>
+            <div class="card-body">
+              <form method="POST" action="">
+                <!-- Form Group (codigo)-->
+                <div class="mb-3">
+                  <label class="small mb-1" for="codigo">Código</label>
+                  <input class="form-control" id="codigo" type="text" value="000000000" disabled="">
+                </div>
+                <!-- Form Row-->
+                <div class="row gx-3 mb-3">
+                  <!-- Form Group (nombre)-->
+                  <div class="col-md-8">
+                    <label class="small mb-1" for="nombre">Nombre</label>
+                    <input class="form-control" id="nombre" name="nombre" type="text"
+                      placeholder="Ingresa tu nombre completo" value="Nombre Completo" required="">
+                  </div>
+                  <!-- Form Group (sexo)-->
+                  <div class="col-md-4">
+                    <label class="small mb-1" for="sexo">Sexo</label>
+                    <select class="form-control" id="sexo" name="sexo" required="">
+                      <option></option>
+                      <option value="Mujer">Mujer</option>
+                      <option value="Hombre" selected="">Hombre</option>
+                    </select>
+                  </div>
+                </div>
+                <!-- Form Group (email)-->
+                <div class="mb-3">
+                  <label class="small mb-1" for="inputEmailAddress">Email</label>
+                  <input class="form-control" id="correo" name="correo" type="email"
+                    placeholder="Ingresa tu dirección de correo" value="ejemplo@gmail.com" required="">
+                </div>
+                <!-- Form Row-->
+                <div class="row gx-3 mb-3">
+                  <!-- Form Group (tel)-->
+                  <div class="col-md-6">
+                    <label class="small mb-1" for="telefono">Teléfono</label>
+                    <input class="form-control" id="telefono" name="telefono" type="tel" maxlength="10"
+                      placeholder="Teléfono" value="0000000000">
+                  </div>
+                  <!-- Form Group (cumpleaños)-->
+                  <div class="col-md-6">
+                    <label class="small mb-1" for="cumple">Cumpleaños</label>
+                    <input class="form-control" id="nacimiento" type="date" name="nacimiento" value="0000-00-00">
+                  </div>
+                </div>
+                <!-- Save changes button-->
+                <button class="btn btn-primary lift" type="submit">Guardar cambios</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer INICIO -->
   <footer class="text-center text-lg-start bg-dark text-muted  ">
